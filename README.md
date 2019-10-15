@@ -6,6 +6,8 @@ This is a simple web app whose UI has been designed in HTML. It has been hosted 
 2) The JavaScript file named as *testBackend.js* is making a simple HTTP request to the Hasura GraphQL api which is hosted on the Hasura Console which is deployed on the Heroku Cloud.
 3) The GraphQL api makes the necessary changes to the backend database(here PostgreSQL) and responds back with an update.
 
+Note: Since the UI is a static HTML file, hence it can't be directly uploaded as a .html file to Heroku Cloud. Hence it needs to embedded inside a .php file(here index.php)
+
 **FrontEnd Details**
 1) The frontEnd is checking for the non-emptiness of the fields. Both the fields are necessry for the updation.
 
